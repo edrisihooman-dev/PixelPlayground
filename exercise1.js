@@ -35,6 +35,18 @@ function drawHorizontalLine(x, y, color) {
     drawPixel(x+2, y, color);
     drawPixel(x+3, y, color);
     drawPixel(x+4, y, color);
+    drawPixel(x+5, y, color);
+   
+}
+
+function drawVerticalLine(x, y, color) {
+    drawPixel(x, y, color);
+    drawPixel(x, y+1, color);
+    drawPixel(x, y+2, color);
+    drawPixel(x, y+3, color);
+    drawPixel(x, y+4, color);
+    drawPixel(x, y+5, color);
+  
 }
 
 clearScreen("black");
