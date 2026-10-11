@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 clearScreen("black");
 drawPixel(20, 20, "blue");
 drawHorizontalLine(10, 10, "green");
@@ -35,5 +35,3 @@ drawPixel(50, 35, "black");
 drawPixel(51, 34, "black");    
 drawPixel(52, 33, "black");
 drawPixel(51, 32, "black");    
-
->>>>>>> Stashed changes
