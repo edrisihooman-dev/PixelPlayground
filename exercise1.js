@@ -49,9 +49,9 @@ function drawVerticalLine(x, y, color) {
   
 }
 
-clearScreen("black");
+clearScreen("white");
 
-// test code 
+
 drawPixel(0,0,"red")
 drawPixel(50,50,"green")
 drawPixel(99,99,"blue")
@@ -59,5 +59,4 @@ drawPixel(99,99,"blue")
 checkPixel(0,0, "red", "checkPixel(0,0)")
 checkPixel(1,1, "black", "checkPixel(1,1)")
 
-// reset
-clearScreen("black");
+clearScreen("white");
