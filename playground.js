@@ -3,7 +3,6 @@ clearScreen("black");
 drawPixel(20, 20, "blue");
 drawHorizontalLine(10, 10, "green");
 console.log("hello World");
-=======
 clearScreen("yellow");
 drawPixel(40, 27, "black");
 drawHorizontalLine(56, 30, "red");
